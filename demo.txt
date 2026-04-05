@@ -1,0 +1,89 @@
+DROP SCHEMA
+CREATE SCHEMA
+SET
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+SET
+INSERT 0 6
+INSERT 0 10
+INSERT 0 12
+INSERT 0 30
+INSERT 0 30
+INSERT 0 10
+INSERT 0 10
+INSERT 0 6
+INSERT 0 6
+INSERT 0 10
+INSERT 0 10
+INSERT 0 10
+INSERT 0 10
+INSERT 0 10
+INSERT 0 10
+INSERT 0 3
+INSERT 0 4
+INSERT 0 5
+INSERT 0 3
+INSERT 0 26
+INSERT 0 24
+INSERT 0 5
+SET
+DROP VIEW
+CREATE VIEW
+DROP VIEW
+CREATE VIEW
+DROP VIEW
+CREATE VIEW
+             concert_name              |  venue_name   |      datetime       | tickets_sold | total_value | percent_sold 
+---------------------------------------+---------------+---------------------+--------------+-------------+--------------
+ Mariah Carey - Merry Christmas to All | Meridian Hall | 2026-12-20 20:00:00 |           50 |     6000.00 |        83.33
+ Jazz Night                            | Massey Hall   | 2026-07-15 19:00:00 |            0 |        0.00 |         0.00
+ Indie Showcase                        | History       | 2026-08-10 21:00:00 |            5 |      125.00 |        50.00
+(3 rows)
+
+SET
+DROP VIEW
+CREATE VIEW
+        owner_name        |    phone     | num_venues 
+--------------------------+--------------+------------
+ Rosa Martinez            | 514-555-0005 |          1
+ Obsidian Events Inc.     | 905-555-0004 |          1
+ Summit Venues Corp.      | 604-555-0006 |          1
+ Maple Leaf Sports        | 416-555-0002 |          2
+ LiveNation Entertainment | 416-555-0001 |          3
+ Jade Chen                | 647-555-0003 |          2
+(6 rows)
+
+SET
+DROP VIEW
+CREATE VIEW
+       venue_name        |   city    | num_seats | percent_accessible 
+-------------------------+-----------+-----------+--------------------
+ Scotiabank Arena        | Toronto   |        12 |              25.00
+ Rogers Arena            | Vancouver |        10 |              10.00
+ Massey Hall             | Toronto   |        10 |              10.00
+ The Danforth Music Hall | Toronto   |        10 |               0.00
+ Centre Bell             | Montreal  |        10 |               0.00
+ The Rex                 | Toronto   |        10 |               0.00
+ History                 | Toronto   |        10 |               0.00
+ Meridian Hall           | Toronto   |        60 |               0.00
+ Budweiser Stage         | Toronto   |        10 |               0.00
+ Place Bell              | Montreal  |        10 |               0.00
+(10 rows)
+
+SET
+DROP VIEW
+CREATE VIEW
+DROP VIEW
+CREATE VIEW
+   username   | tickets_purchased 
+--------------+-------------------
+ concertfan99 |                26
+(1 row)
+
