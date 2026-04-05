@@ -17,11 +17,12 @@ CREATE VIEW UserTicketCounts AS
 -- The user(s) with the highest number of purchased tickets.
 DROP VIEW IF EXISTS Q4 CASCADE;
 CREATE VIEW Q4 AS
-    SELECT username, tickets_purchased
-    FROM UserTicketCounts
-    WHERE tickets_purchased = (
-        SELECT MAX(tickets_purchased)
-        FROM UserTicketCounts
+    SELECT utc.username,
+           utc.tickets_purchased
+    FROM UserTicketCounts utc
+    WHERE utc.tickets_purchased = (
+        SELECT MAX(utc2.tickets_purchased)
+        FROM UserTicketCounts utc2
     );
 
 SELECT * FROM Q4;
